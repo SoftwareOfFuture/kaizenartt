@@ -1,0 +1,29 @@
+{
+  "name": "kaizen-art-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Backend API for Kaizen Art website with admin panel and blog",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "migrate": "node migrations/seed.js",
+    "seed:content": "node migrations/seed-content.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "openai": "^4.20.1",
+    "node-cron": "^3.0.3",
+    "multer": "^1.4.5-lts.1",
+    "express-validator": "^7.0.1",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
