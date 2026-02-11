@@ -10,6 +10,8 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+public/index.html
+public/assets
 *.local
 
 # Environment variables

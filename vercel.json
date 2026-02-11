@@ -1,8 +1,4 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "rewrites": [
-    {"source": "/favicon.ico", "destination": "/favicon.svg"},
-    {"source": "/((?!api).*)", "destination": "/index.html"}
-  ]
+  "outputDirectory": "public"
 }
